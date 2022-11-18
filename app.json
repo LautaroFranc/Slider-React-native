@@ -1,0 +1,37 @@
+{
+
+  "expo": {
+    "name": "slider",
+    "slug": "slider",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoFAHYellow.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoFAHYellow.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3A302E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.yourcompany.yourappname"
+
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoFAHYellow.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.yourappname"
+    },
+    "web": {
+      "favicon": "./assets/logoFAHYellow.png"
+    }
+  }
+}
